@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+		<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h4 style="text-align: center; margin:20px; font-size:30px;"> Any individual in interest to be our clients is to fill
+        and submit the form beneath</h4>
+    <form action="" style="text-align:center;">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p><label for="fname" value="fname">First Name:</label><br>
+                <input type="text" name="fname" placeholder="Enter your first name">
+            </p>
+            <p><label>Last Name:</label><br>
+                <input type="text" placeholder="Enter your Last name">
+            </p>
+            <p><label>Other Names:</label><br>
+                <input type="text" placeholder="Add up any other name(s)"><br>
+            </p>
+            <p><label>Date Of Birth:</label><br>
+                <input type="date" placeholder="Enter your Date of birth" style="background-color:white;">
+            </p>
+            <p><label>Age:</label>
+                <!..I'm gonna use Javascpt for the calculations.>
+                    <p><label>E-mail Address:</label><br>
+                        <input type="email" placeholder="Enter your email address">
+                    </p>
+                    <p><label>House Address</label><br>
+                        <input type="text">
+                    </p>
+                    <label><u><b><i>Gender</i></b></u></label> <br>
+                    <p><input type="radio" name="male" value="male">
+                        <label>Male</label>
+                    </p>
+                    <input type="radio" name="male" value="female">
+                    <label> Female</label>
+    
+        </fieldset>
+        <fieldset>
+            <legend> QUALIFICATIONS</legend>
+            <label for="field">Which field would you like to partner in??</label><br>
+            <select id="field" name="field">
+                <option>Accounting & Finance</option>
+                <option>Business Management</option>
+                <option>Computing</option>
+            </select>
+    
+            <p><label>Upload Your Certificate(s)</label><br>
+                <input type="file" value="add up attachment">
+            </p>
+            <p><textarea
+                    style="background-color:rgb(253, 253, 253);">why do you want to be in this kind of firm??</textarea></p>
+            <p><input type="submit" value="Click here to Submit" style="font-size:20px;"></p>
+        </fieldset>
+    
+    
+        <h2 style="text-align:right;"><button onclick="window.print()" class="print">Print this page</button></h2>
+    </form>
+
+    <footer>
+         &copy;opyright @ Daves
+    </footer>
+</body>
+</html>
