@@ -1,6 +1,9 @@
+
+
 header {
-	background: url(./images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg);
+	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
 	height: 100vh;
+	background-color: blue;
 
 }
 #header {
@@ -28,7 +31,7 @@ h3 {
 }
 
 h5 {
-	background-image: url(./images/photo.jpeg);
+	background-image: url("../images/photo.jpeg");
 	font-family: gabriola;
 	font-size: 40px;
 	padding-right: 100px;
@@ -117,7 +120,7 @@ button:hover {
 }
 .image { 
 	background-color:#074f57;
-	background-image: url("./images/photo.jpg");
+	background-image: url("../images/photo.jpg");
 color:white; 
 }
 
