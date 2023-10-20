@@ -1,4 +1,6 @@
-
+#Container{
+	background: url(../images/soft.jpg);
+}
 
 header {
 	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
