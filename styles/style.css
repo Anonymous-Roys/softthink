@@ -18,14 +18,19 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-header nav ul{
+header nav{
+	background: #000000;
+	padding: 10px;
 	float: right;
+	display: block;
+}
+header nav ul{
+	display: inline;
 }
 
 
 header nav ul li{
-	display: inline-block;
+	display: inline;
 }
 
 
@@ -36,6 +41,11 @@ header nav ul li a{
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
 	margin-top: 18px;
+}
+header nav div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
