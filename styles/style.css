@@ -11,23 +11,24 @@
 }
 
 header {
-	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
-	height: 100vh;
-	background-color: rgba(0, 0, 255, 0.534);
-	background-blend-mode: multiply;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-header nav{
-	background: #000000;
-	padding: 10px;
-	float: right;
-	display: block;
-}
-header nav ul{
-	display: inline;
+	display: flex;
+	position: fixed;
+	top: 5px;
+	justify-content: space-around;
+	align-items: center;
 }
 
+header img{
+	width: 20%;
+}
+
+header nav{
+	background-color: #00000086;
+	border-radius: 5px;
+}
+header ul{
+	padding: 25px;
+}
 
 header nav ul li{
 	display: inline;
@@ -49,8 +50,8 @@ header nav div{
 }
 
 
-#header {
-	/* background-image: url("soft.jpg"); */
+/* #header {
+	background-image: url("soft.jpg");
 	background-color: rgb(155, 145, 145);
 	background-repeat: none;
 	background-size: 5px;
@@ -58,12 +59,28 @@ header nav div{
 	animation: fade;
 	animation-duration: 3s;
 	margin: 25px 25px 0;
-}
+} */
 
+#homepage{
+	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
+	background-color: rgba(0, 0, 255, 0.534);
+	height: 95vh;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#homepage *{
+	font-size: 4rem;
+	color: #fff;
+	font-weight: 600;
+}
 
 h3 {
 	text-align: center;
-	font-family: algerian;
+	font-family: 'Nunito', sans-serif;
 }
 
 #marquee1 {
@@ -130,13 +147,6 @@ img.solo {
 	float: right;
 }
 
-img.soft {
-	float: left;
-	height: 25%;
-	width: 32%;
-	border: 2px solid black;
-}
-
 .print {
 	background-color: #074f57;
 	border-color: rgb(47, 53, 54);
@@ -180,7 +190,6 @@ color:white;
 a{
 		text-decoration:none;
 		color:black;
-		background-color:blue;
 }
 .grid{
 	display:grid;
