@@ -6,14 +6,14 @@
 
 
 
-#Container{
+#container{
 	background: url(../images/soft.jpg);
 }
 
 header {
 	display: flex;
 	position: fixed;
-	top: 5px;
+	top: 3px;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -37,7 +37,7 @@ header nav ul li{
 
 header nav ul li a{
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 1.3rem;
 	padding: 5px;
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
@@ -64,7 +64,7 @@ header nav div{
 #homepage{
 	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
 	background-color: rgba(0, 0, 255, 0.534);
-	height: 95vh;
+	height: 96vh;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -89,6 +89,9 @@ h3 {
 	animation-name: marquee;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
+	height: 4vh;
+	display: flex;
+	align-items: center;
 }
 
 h5 {
@@ -158,20 +161,12 @@ button:hover {
 	scale: 1.3;
 }
 
-@keyframes fade{
-	from{  opacity:0; }
-	to{ opacity:1; }
-}
+
 	#marquee1{ 
 		background-color:black; color: rgb(200, 200, 255);
 	}
 
-@keyframes marquee{
-	0%{ color:yellow; background: rgba(90, 100, 210, 0);}
-	20%{color:rgb(33, 33, 255); background: rgba(90, 100, 210, 0.2);}
-	50%{color:green; background: rgba(90, 100, 210, 0.5);}
-	100%{color:black; background: rgba(90, 100, 210, 1);}
-}
+
 .image { 
 	background-color:#074f57;
 	background-image: url("../images/photo.jpg");
@@ -207,4 +202,16 @@ button{
 footer{
 	height: 20px;
 	background-color: rgba(0, 102, 255, 0.226);
+}
+/* ----Animation---- */
+@keyframes marquee{
+	0%{color:black; background: rgba(90, 100, 210, 1);}
+	20%{color:rgb(33, 33, 255); background: rgba(244, 244, 247, 0.938);}
+	50%{color:green; background: rgba(33, 33, 34, 0.5);}
+	100%{color:black; background: rgba(90, 100, 210, 1);}
+}
+
+@keyframes fade{
+	from{  opacity:0; }
+	to{ opacity:1; }
 }
