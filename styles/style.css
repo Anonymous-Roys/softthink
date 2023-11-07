@@ -7,7 +7,7 @@
 
 
 #container{
-	background: url(../images/soft.jpg);
+	/* background: url(../images/soft.jpg); */
 }
 
 header {
@@ -78,6 +78,7 @@ header nav div{
 	font-weight: 600;
 }
 
+
 h3 {
 	text-align: center;
 	font-family: 'Nunito', sans-serif;
@@ -93,7 +94,9 @@ h3 {
 	display: flex;
 	align-items: center;
 }
-
+.paragraph{
+	font-size: 1.1rem;
+}
 h5 {
 	background-image: url("../images/photo.jpeg");
 	font-family: gabriola;
