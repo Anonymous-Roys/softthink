@@ -72,12 +72,16 @@ header nav div{
 	align-items: center;
 	justify-content: center;
 }
-#homepage *{
-	font-size: 4rem;
+#homepage p{
+	font-size: 1.5rem;
 	color: #fff;
 	font-weight: 600;
 }
-
+#homepage p span{
+	font-size: 2rem;
+	color: rgba(0, 0, 0, 0.815);
+	text-align: center;
+}
 
 h3 {
 	text-align: center;
