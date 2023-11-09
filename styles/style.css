@@ -76,11 +76,16 @@ header nav div{
 	font-size: 1.5rem;
 	color: #fff;
 	font-weight: 600;
+	text-align: center;
+	line-height: 3.3rem;
 }
 #homepage p span{
 	font-size: 2rem;
 	color: rgba(0, 0, 0, 0.815);
-	text-align: center;
+	background: #fff;
+	padding: 0.9rem;
+	margin: 0.4rem;
+	
 }
 
 h3 {
