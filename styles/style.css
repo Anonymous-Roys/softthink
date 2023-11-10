@@ -51,18 +51,6 @@ header nav div{
 	justify-content: center;
 }
 
-
-/* #header {
-	background-image: url("soft.jpg");
-	background-color: rgb(155, 145, 145);
-	background-repeat: none;
-	background-size: 5px;
-	background-blend-mode: multiply;
-	animation: fade;
-	animation-duration: 3s;
-	margin: 25px 25px 0;
-} */
-
 #homepage{
 	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
 	background-color: rgba(0, 0, 255, 0.534);
@@ -115,7 +103,12 @@ button:hover {
 }
 
 #content{
-
+	margin: auto 3rem;
+	line-height: 1.4rem;
+	background: linear-gradient();
+}
+#content h3{
+	text-align: center;
 }
 .print {
 	background-color: #074f57;
