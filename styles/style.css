@@ -103,9 +103,12 @@ button:hover {
 }
 
 #content{
-	margin: auto 3rem;
 	line-height: 1.4rem;
-	background: linear-gradient();
+	background: 
+		linear-gradient(to right bottom, rgb(2, 2, 126), rgba(0, 0, 0, 0.89));
+}
+#content .section{
+	padding: 2rem 3rem;
 }
 #content h3{
 	text-align: center;
