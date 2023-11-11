@@ -59,6 +59,7 @@ header nav div{
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -109,6 +110,7 @@ button:hover {
 }
 #content .section{
 	padding: 2rem 3rem;
+	height: 100vh;
 }
 #content h3{
 	text-align: center;
