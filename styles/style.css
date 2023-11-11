@@ -6,9 +6,15 @@
 	scroll-padding: 10rem;
 }
 
+body{
+	transition: all 0.4s ease-in-out;
+}
 
 
 #container{
+
+	background: rgba(2, 17, 59, 0.589);
+
 	/* background: url(../images/soft.jpg); */
 }
 
@@ -105,6 +111,7 @@ button:hover {
 
 #content{
 	line-height: 1.4rem;
+	border-radius: 0 0 1rem 1rem;
 	background: 
 		linear-gradient(to right bottom, rgb(2, 2, 126), rgba(0, 0, 0, 0.89));
 }
@@ -122,8 +129,16 @@ footer{
 	text-align: center;
 	font-size: 1.2rem;
 	font-weight: 600;
-	background: rgba(2, 17, 59, 0.589);
+	/* background: rgba(2, 17, 59, 0.589); */
 }
+
+
+
+
+
+
+
+
 
 
 
