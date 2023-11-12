@@ -106,7 +106,8 @@ header nav div{
 
 
 #content{
-	line-height: 1.4rem;
+	font-size: 1.3rem;
+	line-height: 2rem;
 	border-radius: 0 0 0.5rem 0.5rem;
 	background: 
 		linear-gradient(to right bottom, rgb(2, 2, 126), rgba(0, 0, 0, 0.89));
@@ -120,9 +121,10 @@ header nav div{
 }
 
 button{
-	padding: 0.2rem;
-	border-radius: 1rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
 	transition-duration:0.1s;
+	margin-top: 1rem;
 }
 
 button:hover {
