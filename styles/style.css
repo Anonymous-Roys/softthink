@@ -32,7 +32,7 @@ header img{
 
 header nav{
 	background-color: #00000086;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 }
 header ul{
 	padding: 1.2rem;
@@ -83,7 +83,7 @@ header nav div{
 	background: #ffffff6e;
 	padding: 0.9rem;
 	margin: 0.4rem;
-	border-radius: 0.6rem;
+	border-radius: 0.5rem;
 	
 }
 
@@ -102,16 +102,12 @@ header nav div{
 
 
 
-button:hover {
-	background-color: #040129;
-	border-color: rgb(68, 65, 65);
-	color: white;
-	scale: 1.1;
-}
+
+
 
 #content{
 	line-height: 1.4rem;
-	border-radius: 0 0 1rem 1rem;
+	border-radius: 0 0 0.5rem 0.5rem;
 	background: 
 		linear-gradient(to right bottom, rgb(2, 2, 126), rgba(0, 0, 0, 0.89));
 }
@@ -123,6 +119,18 @@ button:hover {
 	text-align: center;
 }
 
+button{
+	padding: 0.2rem;
+	border-radius: 1rem;
+	transition-duration:0.1s;
+}
+
+button:hover {
+	background-color: #040129;
+	border-color: rgb(68, 65, 65);
+	color: white;
+	scale: 1.1;
+}
 
 footer{
 	height: 8vh;
@@ -208,10 +216,7 @@ a{
 
 }
 
-button{
-	/*transition-delay:0.2s;*/
-	transition-duration:0.4s;
-}
+
 
 
 
