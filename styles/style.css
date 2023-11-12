@@ -121,17 +121,25 @@ header nav div{
 }
 
 button{
+	font-size: 0.9rem;
+	font-weight: 600;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
 	transition-duration:0.1s;
 	margin-top: 1rem;
+	border: 1px solid black;
+	box-shadow:0 0.3rem 1px rgb(0, 0, 0);
 }
 
 button:hover {
 	background-color: #040129;
 	border-color: rgb(68, 65, 65);
 	color: white;
-	scale: 1.1;
+	
+}
+button:active{
+	transform: translateY(0.3rem);
+	box-shadow:0 0rem 0px rgba(0, 0, 0, 0);
 }
 
 footer{
