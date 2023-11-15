@@ -27,32 +27,48 @@
 		
 		
 	</header>
-
+    <main>
     <h4 style="text-align: center; margin:20px; font-size:30px;"> Become a part of us</h4>
     <form action="" style="text-align:center;">
         <fieldset>
             <legend>Personal Information</legend>
-            <p><label for="fname" value="fname">First Name:</label><br>
-                <input type="text" name="fname" placeholder="Enter your first name">
-            </p>
-            <p><label>Last Name:</label><br>
-                <input type="text" placeholder="Enter your Last name">
-            </p>
-            <p><label>Other Names:</label><br>
-                <input type="text" placeholder="Add up any other name(s)"><br>
-            </p>
-            <p><label>Date Of Birth:</label><br>
-                <input type="date" placeholder="Enter your Date of birth" style="background-color:white;">
-            </p>
-            <p><label>Age:</label>
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="fname" placeholder="Enter your first name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" placeholder="Enter your Last name"></td>
+                </tr>
+                <tr>
+                    <td>Other Names:</td>
+                    <td> <input type="text" placeholder="Add up any other name(s)"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth:</td>
+                    <td><input type="date" placeholder="Enter your Date of birth"></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td id="currentAge"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            </label>
                 
-                    <p><label>E-mail Address:</label><br>
+            
+                
+                    <p><label>E-mail Address:</label>
                         <input type="email" placeholder="Enter your email address">
                     </p>
-                    <p><label>House Address</label><br>
+                    <p><label>House Address</label>
                         <input type="text">
                     </p>
-                    <label><u><b><i>Gender</i></b></u></label> <br>
+                    <label><u><b><i>Gender</i></b></u></label> 
                     <p><input type="radio" name="male" value="male">
                         <label>Male</label>
                     </p>
@@ -80,7 +96,7 @@
     
         <h2 style="text-align:right;"><button onclick="window.print()" class="print">Print this page</button></h2>
     </form>
-
+    </main>
     <footer>
          &copy;opyright @ Daves
     </footer>
