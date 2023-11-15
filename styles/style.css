@@ -47,9 +47,12 @@ header nav ul li a{
 	text-decoration: none;
 	font-size: 1.3rem;
 	padding: 5px;
-	color: rgb(255, 255, 255);
+	color: #fff;
 	border-radius: 5px;
 	margin-top: 18px;
+}
+header nav ul li a:hover{
+	color: #9c9797;
 }
 header nav div{
 	display: flex;
