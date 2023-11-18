@@ -145,8 +145,10 @@ button:active{
 }
 
 footer{
-	padding: 2vh;
+	padding: 1rem;
 	font-size: 1.2rem;
+}
+footer .contact-items p:nth-child(1){
 	font-weight: 600;
 }
 footer .contact-container ~ div{
