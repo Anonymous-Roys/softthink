@@ -117,29 +117,34 @@ header nav div{
 #content h3{
 	text-align: center;
 }
-
-.section a{
-	font-size: 0.9rem;
-	font-weight: 600;
-	border-radius: 0.5rem;
+.section .button{
 	margin-top: 1rem;
-	border: 1px solid black;
-	box-shadow:0 0.3rem 1px rgb(0, 0, 0);
-	text-decoration: none;
-	padding: 0.5rem;
-	color: black;
-	transition: transform 0.1s;
+	height:auto;
 }
 
-.section a:hover {
+.section .button a{
+	color: black;
+	transition: transform 0.1s;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	border: 1px solid black;
+	box-shadow:0 0.3rem 1px rgb(0, 0, 0);
+	text-decoration: none;	
+	background-color: rgba(255, 255, 0, 0.273);
+}
+
+.section  .button a:hover {
 	background-color: #040129;
 	border-color: rgb(68, 65, 65);
 	color: white;
-	
 }
 .section a:active{
-	transform: translateY(0.3rem);
 	box-shadow:0 0rem 0px rgba(0, 0, 0, 0);
+}
+.section .button:active{
+	transform: translateY(0.3rem);
 }
 
 footer{
