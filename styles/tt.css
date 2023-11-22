@@ -6,29 +6,15 @@
 	grid-template-rows: auto auto auto;
 }
 
-.item{
-	width: 5px;
-	height: 40px;
-	margin: 10px;
-}
 
 .title:hover, .subtitle:hover{
 	color:red;
 }
+
 #to-index:link {
 color:green;
 }
+
 img[src^="../"] {
 	border: 10px solid red;
 }
-.article-subtitle{
-	background-color: green;
-}
-#img{
-	height:400px; width:600px;
-	background-repeat: no-repeat;
-	background-size:contain;
-	background-color:red;
-	background:radial-gradient( rgb( 55, 44, 4), rgba( 5, 54, 4, 0));
-}
-body {font-family:"Arial";}
