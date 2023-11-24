@@ -113,6 +113,7 @@ header nav div{
 }
 #content .section{
 	padding: 2rem 3rem;
+	text-align: justify;
 }
 #content h3{
 	text-align: center;
