@@ -14,9 +14,7 @@ body{
 }
 
 
-#container{
-	/* background: rgb(1, 29, 90); */
-}
+
 
 header {
 	display: flex;
@@ -114,7 +112,6 @@ header nav div{
 	border-radius: 0 0 0.5rem 0.5rem;
 	background:
 		linear-gradient(to right bottom, rgb(2, 2, 126), rgb(0, 4, 36));
-	
 }
 #content .section{
 	padding: 2rem 3rem;
@@ -123,12 +120,12 @@ header nav div{
 #content h3{
 	text-align: center;
 }
-.section .button{
+.button{
 	margin-top: 1rem;
 	height:auto;
 }
 
-.section .button a{
+.button a{
 	color: black;
 	transition: transform 0.1s;
 	padding: 0.5rem;
@@ -141,15 +138,15 @@ header nav div{
 	background-color: rgba(255, 255, 0, 0.273);
 }
 
-.section  .button a:hover {
+.button a:hover {
 	background-color: #040129;
 	border-color: rgb(68, 65, 65);
 	color: white;
 }
-.section a:active{
+.button a:active{
 	box-shadow:0 0rem 0px rgba(0, 0, 0, 0);
 }
-.section .button:active{
+.button:active{
 	transform: translateY(0.3rem);
 }
 
@@ -174,8 +171,15 @@ footer .contact-container{
 	align-items: center;
 }
 
-
-
+.message{
+	position: fixed;
+	right: 15px;
+	bottom: 20px;
+	
+}
+.message a{
+	background: #201d33;border-radius: 100%;
+}
 
 
 
@@ -206,11 +210,6 @@ footer .contact-container{
 
 
 /* 
-
-
-
-
-
 
 .print {
 	background-color: #074f57;
@@ -268,10 +267,10 @@ color:white;
 
 
 
-
-
-
 /* 
+
+
+
 input[type=text],
 [type=email],
 [type=date],
