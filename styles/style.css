@@ -195,6 +195,8 @@ footer .contact-container{
 }
 #projects-page .section-2{
 	display: flex;
+	background-color: #e7e7e7;
+	border-radius: 2rem;
 }
 /* ------------------services page---------- */
 #services-page .process-container{
