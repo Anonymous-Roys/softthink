@@ -189,7 +189,8 @@ footer .contact-container{
 
 
 
-#projects-page .section{
+#projects-page .section, 
+#services-page .section{
 	padding-top: 20vh;
 }
 
