@@ -193,7 +193,10 @@ footer .contact-container{
 #services-page .section{
 	padding-top: 20vh;
 }
-
+#projects-page .section-2{
+	display: flex;
+}
+/* ------------------services page---------- */
 #services-page .process-container{
 	display: flex;
 	justify-content: space-around;
