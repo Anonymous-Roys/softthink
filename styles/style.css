@@ -196,11 +196,14 @@ footer .contact-container{
 #services-page .process-container{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 #services-page .process-container div{
 	max-width: 300px;
 	max-height: 300px;
+	overflow: hidden;
+	margin: 1rem;
 	
 }
 
@@ -210,9 +213,13 @@ footer .contact-container{
 	border-radius: 0.5rem;
 	box-shadow: 3px 3px 3px rgba(0, 0, 0),;
 	box-shadow: -3px -3px 3px rgba(0, 0, 0);
+	transition: all 0.3s;
 }
 
+#services-page .process-container div img:hover{
+	scale: 1.1;
 
+}
 
 
 
