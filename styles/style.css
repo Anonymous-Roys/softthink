@@ -197,6 +197,7 @@ footer .contact-container{
 	display: flex;
 	background-color: #e7e7e7;
 	border-radius: 2rem;
+	justify-content: space-between;
 }
 /* ------------------services page---------- */
 #services-page .process-container{
