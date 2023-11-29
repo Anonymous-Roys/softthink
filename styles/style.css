@@ -1,12 +1,7 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-	scroll-padding: 5rem;
-	
+:root{
+	--primary-color: 
+		linear-gradient(to right bottom, rgb(2, 2, 126), rgb(0, 4, 36));
 }
-
 
 /* ----Animation---- */
 @keyframes marquee{
@@ -20,6 +15,21 @@
 	from{  opacity:0; }
 	to{ opacity:1; }
 }
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding: 5rem;
+	
+}
+
 
 
 
@@ -128,8 +138,7 @@ header nav div{
 	font-size: 1.3rem;
 	line-height: 2rem;
 	border-radius: 0 0 0.5rem 0.5rem;
-	background:
-		linear-gradient(to right bottom, rgb(2, 2, 126), rgb(0, 4, 36));
+	background: var(--primary-color)
 }
 #content .section{
 	padding: 2rem 3rem;
@@ -196,7 +205,8 @@ footer .contact-container{
 	
 }
 .message a{
-	background: #201d33;border-radius: 100%;
+	background: #201d33;
+	border-radius: 100%;
 }
 
 
@@ -251,17 +261,33 @@ footer .contact-container{
 
 
 /* ------------------apply page---------- */
-table{
+#apply-page table{
 	width: 100%;
+}
+#apply-page input, button{
+	border-radius: 0.5rem;
+	text-align: center;
+	padding: 0.5rem;
 }
 #apply-page form input:not(input[type="radio"],
 input[type="submit"]), select{
 	height: 2rem;
 	width: 96%;
+	
 }
 
+#apply-page fieldset{
+	padding: 0.7rem;
+	border-radius: 0.5rem;
+	background: var(--primary-color);
+}
 
-
+#apply-page legend {
+	text-align: center;
+	font-family: algerian;
+	font-size: 18px;
+	font-style: italic;
+} 
 
 
 
@@ -310,10 +336,3 @@ color:white;
 
 
 
-
-legend {
-	text-align: left;
-	font-family: algerian;
-	font-size: 18px;
-	font-style: italic;
-} 
