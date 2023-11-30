@@ -260,16 +260,25 @@ footer .contact-container{
 
 
 /* ------------------apply page---------- */
-#apply-page .section{
+/* #apply-page .section{
+	position: sticky; 
+	top: 20vh;
+} */
+
+#apply-page .head:first-child{
 	position: sticky; 
 	top: 20vh;
 }
-
-#apply-page .head{
+#apply-page .head fieldset:nth-child(1){
 	position: sticky; 
-	top: 20vh;
+	top: 26vh;
+	z-index: -1;
+	margin-bottom: 15vh;
 }
 
+#apply-page .head fieldset:nth-child(2){
+	position: relative; 
+}
 
 #apply-page table{
 	width: 100%;
