@@ -1,7 +1,7 @@
 :root{
 	--primary-color: 
 		linear-gradient(to right bottom, rgb(2, 2, 126), rgb(0, 4, 36));
-	--button-color: rgba(255, 255, 0, 0.273);
+	--button-color: rgb(134, 134, 78);
 	--button-hover: #040129;
 	--button-active: translateY(0.3rem);
 }
@@ -165,7 +165,7 @@ header nav div{
 	border: 1px solid black;
 	box-shadow:0 0.3rem 1px rgb(0, 0, 0);
 	text-decoration: none;	
-	background: rgba(255, 255, 0, 0.273);
+	background: var(--button-color);
 }
 
 .button a:hover {
@@ -310,12 +310,27 @@ input[type="submit"]), select{
 } 
 
 
-button, input[type="submit"]{
-	background: var(--primary-color);
+#apply-page .button{
+	color: black;
+	transition: transform 0.1s;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	border: 1px solid black;
+	box-shadow:0 0.3rem 1px rgb(0, 0, 0);
+	text-decoration: none;	
+	background: var(--button-color);
+}
+#apply-page .button:hover{
+	background-color: var(--button-hover);
+	border-color: rgb(68, 65, 65);
+	color: #fff;
 }
 
-
- 
+#apply-page .button:active{
+	box-shadow:0 0rem 0px rgba(0, 0, 0, 0);
+}
 
 /* .print {
 	background-color: #074f57;
