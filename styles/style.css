@@ -221,7 +221,8 @@ footer .contact-container{
 
 
 #projects-page .section, 
-#services-page .section{
+#services-page .section,
+#about-page{
 	margin-top: 20vh;
 }
 
