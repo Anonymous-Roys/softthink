@@ -333,6 +333,20 @@ input[type="submit"]), select{
 	box-shadow:0 0rem 0px rgba(0, 0, 0, 0);
 }
 
+
+/* --------------about page---------- */
+#about-page .contain{
+	margin: 1rem;
+}
+#about-page .section{
+	font-size: 24px;
+	margin: 1rem;
+}
+
+
+
+
+
 /* .print {
 	background-color: #074f57;
 	border-color: rgb(47, 53, 54);
@@ -340,21 +354,6 @@ input[type="submit"]), select{
 
 
 
-.image { 
-	background-color:#074f57;
-	background-image: url("../images/photo.jpg");
-color:white; 
-}
-
-
-.bg{ 
-	background-color:#074f57; color:white;
-}
-.head{
-	font-size:80%;
-	text-align:center;
-	color:blue;
-}
 
 .grid{
 	display:grid;
