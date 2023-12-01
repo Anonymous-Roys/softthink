@@ -40,7 +40,7 @@
 
 body{
 	transition: all 0.4s ease-in-out;
-	background: rgb(1, 29, 90);
+	background: var(--primary-color);
 	
 }
 
@@ -336,7 +336,11 @@ input[type="submit"]), select{
 
 /* --------------about page---------- */
 #about-page .contain{
-	margin: 1rem;
+	margin: 0.2rem;
+	background: var(--primary-color);
+	border-radius: 0.5rem;
+	box-shadow: 5px -4px 11px rgba(0, 0, 0);
+	padding: 0.8rem;
 }
 #about-page .section{
 	font-size: 24px;
