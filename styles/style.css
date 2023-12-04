@@ -377,3 +377,70 @@ input[type="submit"]), select{
 
 
 
+/* ------------------Voluntary Login Page-------------------- */
+.forms{
+    background: var(--bg-color);
+    margin: 20px;
+    border-radius: 20px;
+    min-height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms p, .forms h3 {
+    text-align: center;
+    margin: 3px 3px 10px;
+}
+
+
+.forms .forms-container {
+    background-color: #ffffff;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 3px solid rgb(35, 35, 73);
+}
+
+.forms fieldset{
+    padding: 15px;
+    border: 2px solid rgb(35, 35, 73);
+    border-radius: 10px;
+}
+
+.forms input:not(input[type="checkbox"]) {
+    width: 99%;
+    height: 42px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid rgb(35, 35, 73);
+}
+.forms input::placeholder{
+    font-style: italic;
+}
+.forms input[type="checkbox"]{
+    width: 16px;
+}
+.forms label{
+    margin: 200px 0px;
+}
+.forms .button {
+    text-align: center;           
+}
+
+.forms button {
+    text-align: center;
+    color: black;
+    background: rgb(108, 108, 192);
+    box-shadow: 0px 4px 1px black;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    border: 2px solid rgb(35, 35, 73);
+
+}
+.forms button:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 0;
+}
