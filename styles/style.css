@@ -449,4 +449,6 @@ input[type="submit"]), select{
 }
 textarea{
 	resize: none;
+	width: 100%;
+	border-radius: 6px;
 }
