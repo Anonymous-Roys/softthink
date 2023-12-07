@@ -380,7 +380,7 @@ input[type="submit"]), select{
 
 
 
-/* ------------------Voluntary Login Page-------------------- */
+/* ------------------Contacts Page------------------- */
 .forms{
     background: var(--bg-color);
     margin: 20px;
@@ -446,4 +446,7 @@ input[type="submit"]), select{
 .forms button:active {
     transform: translateY(3px);
     box-shadow: 0 0 0;
+}
+textarea{
+	resize: none;
 }
