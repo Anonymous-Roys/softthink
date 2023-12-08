@@ -451,4 +451,5 @@ textarea{
 	resize: none;
 	width: 100%;
 	border-radius: 6px;
+	padding: 8px;
 }
