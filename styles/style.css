@@ -54,9 +54,16 @@ header {
 	justify-content: space-around;
 	align-items: center;
 }
-
+#logo-link{
+	text-decoration: none;
+	padding: 0px;
+	color: #fff;
+	border-radius: 0px;
+	margin-top: 0px;
+	width: 22%;
+}
 header img{
-	width: 15%;
+	width: 100%;
 }
 
 header nav{
