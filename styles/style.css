@@ -229,7 +229,8 @@ footer .contact-container{
 
 #projects-page .section, 
 #services-page .section,
-#about-page{
+#about-page, 
+#privacy-page{
 	margin-top: 20vh;
 }
 
