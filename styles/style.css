@@ -69,6 +69,7 @@ header img{
 header nav{
 	background-color: #00000086;
 	border-radius: 0.5rem;
+	backdrop-filter: blur(2px);
 }
 header ul{
 	padding: 1.2rem;
