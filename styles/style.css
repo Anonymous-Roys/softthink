@@ -2,7 +2,7 @@
 	--primary-color: 
 		linear-gradient(to right bottom, rgb(255, 255, 255), rgb(0, 4, 36));
 	--button-color: #ababab;
-	--button-hover: #73b8e4;
+	--button-hover: #63a4cc;
 	--button-active: translateY(0.3rem);
 }
 
@@ -88,7 +88,7 @@ header nav ul li a{
 	margin-top: 18px;
 }
 header nav ul li a:hover{
-	color: #9c9797;
+	color: #73b8e4;
 }
 header nav div{
 	display: flex;
@@ -291,6 +291,10 @@ footer .contact-container{
 	position: relative; 
 }
 
+
+#apply-page form{
+	margin: 0px 5% 0;
+}
 #apply-page table{
 	width: 100%;
 }
