@@ -98,7 +98,7 @@ header nav div{
 
 #homepage{
 	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
-	background-color: rgba(42, 42, 172, 0.534);
+	background-color: rgb(177, 168, 168);
 	height: 96vh;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
@@ -127,10 +127,15 @@ header nav div{
 	padding: 0.9rem;
 	margin: 0.4rem;
 	border-radius: 0.5rem;
-	
+	/* border: 5px solid #63a4cc; */
 }
 
-
+#homepage p span{
+	box-shadow: 4px 4px 8px #63a4cc,
+	-4px -4px 8px #63a4cc,
+	0px 4px 8px #63a4cc,
+	4px 0px 8px #63a4cc;
+}
 
 #marquee1 {
 	background-color: #e7e7e7;
