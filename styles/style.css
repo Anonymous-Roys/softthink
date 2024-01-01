@@ -1,17 +1,17 @@
 :root{
 	--primary-color: 
-		linear-gradient(to right bottom, rgb(2, 2, 126), rgb(0, 4, 36));
-	--button-color: rgb(134, 134, 78);
-	--button-hover: #040129;
+		linear-gradient(to right bottom, rgb(255, 255, 255), rgb(0, 4, 36));
+	--button-color: #ababab;
+	--button-hover: #73b8e4;
 	--button-active: translateY(0.3rem);
 }
 
 /* ----Animation---- */
 @keyframes marquee{
-	0%{color:black; background: rgba(90, 100, 210, 1);}
-	20%{color:rgb(33, 33, 255); background: rgb(244, 244, 247);}
-	50%{color:green; background: rgb(111, 111, 116);}
-	100%{color:black; background: rgba(90, 100, 210, 1);}
+	0%{color:black; background: #73b8e4;}
+	20%{color:rgb(0, 0, 0); background: rgb(244, 244, 247);}
+	50%{color:rgb(0, 0, 0); background: rgb(111, 111, 116);}
+	100%{color:black; background: #73b8e4;}
 }
 
 @keyframes fade{
@@ -40,8 +40,7 @@
 
 body{
 	transition: all 0.4s ease-in-out;
-	background: var(--primary-color);
-	
+	background: var(--primary-color);	
 }
 
 
@@ -99,7 +98,7 @@ header nav div{
 
 #homepage{
 	background: url("../images/ikigai-consulting-management-business-project-japan-caribbean-sustainability.jpg");
-	background-color: rgba(0, 0, 255, 0.534);
+	background-color: rgba(42, 42, 172, 0.534);
 	height: 96vh;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
@@ -137,6 +136,7 @@ header nav div{
 	background-color: #e7e7e7;
 	color: blue;
 	animation-name: marquee;
+	animation-timing-function: linear;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	height: 4vh;
@@ -191,7 +191,7 @@ header nav div{
 footer{
 	padding: 1rem;
 	font-size: 1.2rem;
-	background: rgb(1, 29, 90);
+	background: rgb(129, 129, 129);
 	position: sticky;
 	bottom: 0;
 	z-index: -1;
