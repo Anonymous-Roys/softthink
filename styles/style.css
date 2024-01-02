@@ -50,8 +50,10 @@ header {
 	display: flex;
 	position:fixed;
 	top: 3px;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	z-index: 333;
+	margin: 0 35px;
 }
 #logo-link{
 	text-decoration: none;
@@ -62,7 +64,7 @@ header {
 	width: 22%;
 }
 header img{
-	width: 100%;
+	width: 80%;
 }
 
 header nav{
@@ -87,9 +89,16 @@ header nav ul li a{
 	border-radius: 5px;
 	margin-top: 18px;
 }
+
+
 header nav ul li a:hover{
 	color: #73b8e4;
 }
+header  #menu-icon-container{
+	display: none;
+}
+
+
 header nav div{
 	display: flex;
 	align-items: center;
@@ -112,6 +121,7 @@ header nav div{
 	z-index: -1;
 
 }
+
 #homepage p{
 	font-size: 1.9rem;
 	color: #fff;
@@ -470,4 +480,34 @@ textarea{
 	width: 100%;
 	border-radius: 6px;
 	padding: 8px;
+}
+
+
+@media screen and (max-width:800px) {
+	header{
+		justify-content: space-between;
+		margin: 0 20px;
+	}
+	header nav{
+		display: none;
+	}
+
+	header  #menu-icon-container{
+		display: block;
+		width: 45px;
+		text-align: center;
+		
+	}
+	header  #menu-icon-container:hover{
+		color: white;
+		background: #63a4cc9c;
+		border-radius: 70%;
+	}
+	header  #menu-icon{
+		width: 10px;
+	}
+
+	header  #menu-icon-container:hover nav{
+		display: block;
+	}
 }
